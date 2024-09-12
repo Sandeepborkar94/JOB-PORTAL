@@ -5,7 +5,17 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-public class PreparedStatementExample {
+public class PreparedStatementExample 
+{
+	
+	/*
+	 git fetch origin master 
+	 git merge origin/master --allow-unrelated-histories
+	 git push origin master
+	 
+	 */
+
+	
     public static void main(String[] args) {
         String jdbcURL = "jdbc:mysql://localhost:3306/aaa";
         String userName = "root";
